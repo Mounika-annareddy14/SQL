@@ -1,50 +1,58 @@
 # SQL Practice Repository
 
 ## Introduction
-Welcome to my SQL Practice Repository! This is a space where I document and share SQL scripts and exercises that cover both beginner and intermediate-level concepts.
+Welcome to my SQL Practice Repository! This is where I documented and shared SQL scripts and exercises covering both beginner and intermediate-level concepts. I practiced and improved my SQL skills through hands-on examples, learning different ways to manipulate and query data.
+
 ## Topics Covered
 
 ### Beginner Level
-- **Creating Tables:** Learn how to define table structures using `CREATE TABLE`, specify data types, and set constraints like `PRIMARY KEY` and `FOREIGN KEY`.
+- **Created Tables:** Defined table structures using `CREATE TABLE`, specified data types, and set constraints like `PRIMARY KEY` and `FOREIGN KEY`.
   
-- **SELECT Statements:** Fetch data from tables using `SELECT`, choose specific columns, and apply expressions.
+- **Used SELECT Statements:** Retrieved data from tables using `SELECT`, chose specific columns, and applied expressions.
   
-- **WHERE Clause:** Filter results using conditions with operators like `=`, `>`, `<`, `AND`, `OR`, and `NOT`.
+- **Applied WHERE Clause:** Filtered results using conditions with operators like `=`, `>`, `<`, `AND`, `OR`, and `NOT`.
   
-- **LIKE Operator:** Use wildcard matching (`%`, `_`) to find patterns.
+- **Used LIKE Operator:** Applied wildcard matching (`%`, `_`) to find patterns in data.
+
   
-- **GROUP BY Clause:** Group rows based on column values and apply aggregate functions like `COUNT()`, `SUM()`, `AVG()`, `MIN()`, and `MAX()`.
+- **Grouped Data with GROUP BY:** Grouped rows based on column values and applied aggregate functions like `COUNT()`, `SUM()`, `AVG()`, `MIN()`, and `MAX()`.
   
-- **ORDER BY Clause:** Sort query results using `ASC` or `DESC`.
+- **Sorted Data with ORDER BY:** Ordered query results using `ASC` or `DESC`.
+
   
-- **HAVING Clause:** Apply conditions on grouped results.
+- **Filtered Groups with HAVING Clause:** Applied conditions on grouped results.
+
   
-- **LIMIT Clause:** Control how many rows are returned.
+- **Limited Results with LIMIT Clause:** Controlled the number of rows returned in a query.
   
-- **Aliasing:** Use `AS` to rename columns or tables.
+- **Used Aliasing:** Renamed columns or tables using `AS` for better readability.
 
 ### Intermediate Level
 
-- **CASE Statements:** Introduce conditional logic inside queries.
-
+- **Implemented CASE Statements:** Introduced conditional logic inside queries.
   
-- **Joins:** Combine data from multiple tables:
+- **Performed Joins:** Combined data from multiple tables:
   
-  - `INNER JOIN`: Retrieves matching records.
-  - `LEFT JOIN`: Returns all records from the left table.
-  - `RIGHT JOIN`: Returns all records from the right table.
-  - `FULL JOIN`: Retrieves all records from both tables.
+  - `INNER JOIN`: Retrieved matching records.
+  - `LEFT JOIN`: Returned all records from the left table.
+  - `RIGHT JOIN`: Returned all records from the right table.
+  - `FULL JOIN`: Retrieved all records from both tables.
     
-- **Subqueries:** Use queries within queries.
+- **Used Subqueries:** Executed queries within queries to fetch specific results.
   
-- **Window Functions:** Perform calculations across rows:
-  - `ROW_NUMBER()`: Assigns a unique number to each row.
-  - `RANK()` and `DENSE_RANK()`: Assigns rank values.
-  - `LAG()` and `LEAD()`: Access previous or next row values.
+- **Worked with Window Functions:** Performed calculations across rows:
+  
+  - `ROW_NUMBER()`: Assigned a unique number to each row.
+  - `RANK()` and `DENSE_RANK()`: Assigned rank values to rows.
+  - `LAG()` and `LEAD()`: Accessed previous or next row values in a dataset.
     
-- **String Functions:** Work with text data using `CONCAT()`, `SUBSTRING()`, `TRIM()`, `UPPER()`, and `LOWER()`.
+- **Used String Functions:** Manipulated text data using `CONCAT()`, `SUBSTRING()`, `TRIM()`, `UPPER()`, and `LOWER()`.
   
-- **Unions:** Combine results from multiple queries:
-  - `UNION`: Merges distinct records.
-  - `UNION ALL`: Merges all records, including duplicates.
+- **Combined Queries with Unions:** Merged results from multiple queries:
+  - `UNION`: Combined distinct records.
+  - `UNION ALL`: Combined all records, including duplicates.
 
+## How I Practiced
+1. Cloned the repository to my local machine:
+   ```bash
+   git clone https://github.com/Mounika-annareddy14/sql-practice.git
