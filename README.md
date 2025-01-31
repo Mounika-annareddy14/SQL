@@ -1,7 +1,7 @@
 # SQL Practice Repository
 
 ## Introduction
-Welcome to my SQL Practice Repository! This is where I documented and shared SQL scripts and exercises covering both beginner and intermediate-level concepts. I practiced and improved my SQL skills through hands-on examples, learning different ways to manipulate and query data.
+Welcome to my SQL Practice Repository! This is where I documented and shared SQL scripts and exercises covering beginner ,intermediate and Advanced -level concepts. I practiced and improved my SQL skills through hands-on examples, learning different ways to manipulate and query data.
 
 ## Topics Covered
 
