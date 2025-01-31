@@ -51,8 +51,15 @@ Welcome to my SQL Practice Repository! This is where I documented and shared SQL
 - **Combined Queries with Unions:** Merged results from multiple queries:
   - `UNION`: Combined distinct records.
   - `UNION ALL`: Combined all records, including duplicates.
+### Advanced Level
 
-## How I Practiced
-1. Cloned the repository to my local machine:
-   ```bash
-   git clone https://github.com/Mounika-annareddy14/sql-practice.git
+- **Used Common Table Expressions (CTEs):** Created temporary result sets with `WITH` to improve query readability and reusability.
+  
+- **Implemented Stored Procedures:** Wrote reusable SQL procedures using `CREATE PROCEDURE` to execute logic with input parameters.
+
+- **Worked with Temporary Tables:** Created temporary datasets using `CREATE TEMPORARY TABLE`, which existed only for the session.
+
+- **Created Triggers:** Automated actions using `CREATE TRIGGER` to execute SQL statements before or after data changes (`INSERT`, `UPDATE`, `DELETE`).
+  
+- **Scheduled Events:** Used `CREATE EVENT` to automate tasks like backups, periodic updates, and data cleanup at scheduled intervals.
+
